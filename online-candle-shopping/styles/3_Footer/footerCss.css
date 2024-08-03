@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Aldrich&family=Arbutus&family=Big+Shoulders+Inline+Text:wght@100..900&family=Bungee+Inline&family=Bungee+Spice&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Epilogue:ital,wght@0,764;1,764&family=Graduate&family=Kode+Mono:wght@400..700&family=Nosifer&family=Pacifico&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Slackey&family=Vast+Shadow&display=swap');
+
+/* Footer Heading  */
+.footerHeading 
+{
+   display: flex;
+   justify-content: center; 
+}
+.footerHeadingWrap
+{
+    display: flex;
+    background-color: #f9e6ea;
+    padding: 0 160px;
+}
+.footerHeading .footerHeadingWrap h4
+{
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    align-self: center;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+
+}
+
+/* Footer Section */
+
+.footer
+{
+    display: flex;
+    justify-content: center; 
+    text-transform: uppercase;  
+    font-family: "Red Hat Display", sans-serif;
+}
+.footer .footerWrapper
+{
+    display: flex;
+}
+
+/* 1st Section */ 
+
+.footer .footerImage
+{
+    width: 470px;
+    height: 273px;
+}
+.footer .footerImage img
+{
+    width: 100%;
+    height: 100%;
+}
+
+/* 2nd Section */
+
+.footerDescriptionWrap
+{
+    background-color: #fbbdae;
+    width:700px;
+    height:273px;
+    position: relative;
+    
+}
+.footer .footerWrapper .footerDescription
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .footerDescription .bend 
+{ 
+    margin-top:20px ;
+}
+.footer .footerDescription .bend .bendImage
+{
+    height: 120px;
+    width: 120px;
+}
+.footer .footerDescription .bend .bendImage img
+{
+    width: 100%;
+    height: 100%;
+}
+.footer .footerDescription .bend .bendInformation
+{
+    padding-top: 35px;
+    max-width: 130px;    
+}
+.footer .footerDescription .bend .bendInformation span
+{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;   
+}
+.footer .footerWrapper .footerDescription .bend .bendInformation .unique 
+{
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    text-transform: lowercase;
+    font-size:13px ;
+}
+
+/* 3rd Section */
+
+.footer .footerWrapper .footerDescription .quickLinks,
+.footer .footerWrapper .footerDescription .socials
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 70px;   
+}
+.footer .footerWrapper .footerDescription .quickLinks .quicklinkImage
+{
+    height: 37px;
+    width: 37px;
+}
+.footer .footerWrapper .footerDescription .quickLinks .quicklinkImage img
+{
+    width: 100%;
+}
+.footer .footerWrapper .footerDescription .quickLinks .quickLinkInfo
+{
+    line-height: 0.70;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.footer .footerWrapper .footerDescription .quickLinks .quickLinkInfo h4,
+.footer .footerWrapper .footerDescription .socials .socialInfo h4
+{
+    font-size: 15px;
+    font-weight:bold;
+    font-style: normal;
+}
+.footer .footerWrapper .footerDescription .quickLinks .quickLinkInfo h5,
+.footer .footerWrapper .footerDescription .socials .socialInfo h5
+{
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.footer .footerWrapper .footerDescription .socials .socialImage
+{
+    height: 33px;
+    width: 33px; 
+}
+.footer .footerWrapper .footerDescription .socials .socialImage img
+{
+    width: 100%;
+}
+.footer .footerWrapper .footerDescription .socials .socialInfo
+{
+    padding-top: 10px;
+    line-height: 0.70;   
+}
+
+/* 4th Section */
+
+.footer .footerWrapper .footerDescriptionWrap .footerlastImage
+{
+    display: flex;
+    justify-content: right;
+}
+.footer .footerWrapper .footerDescriptionWrap .footerlastImage .footerImageWrap
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    right: 15px;
+    
+}
+.footer .footerWrapper .footerDescriptionWrap .footerlastImage .footerImageWrap img
+{
+    width: 100%;
+}

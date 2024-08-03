@@ -1,0 +1,132 @@
+/* Middle Section  */
+body {
+    margin: 0;
+
+}
+
+.container {
+    padding: 0 80px;
+}
+
+.midddleSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.midddleSection .midsectionImg {
+    background-color: #f7e7ea;
+    padding: 80px 97px;
+}
+
+.midddleSection .midsectionImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.midddleSection .midsectionImg .midimages img {
+    height: 220px;
+    width: 250px;
+}
+
+.midddleSection .midsectionImg .midimages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.midddleSection .midsectionImg .midimages span {
+    border-bottom: 2px solid black;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.midddleSection .textrotate {
+    background-color: #fdbfb0;
+    padding: 0px 40px;
+}
+
+.midddleSection .textrotate span {
+    margin-top: 90px;
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+/* Middle Section Close */
+
+/* Middle Section Second Start */
+
+.middlesection2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+
+.middlesection2 .midsection {
+    background-color: #c3c4e2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 42px;
+    gap: 13px;
+}
+
+.middletext .heading span {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.middlesection2 .paragraphWrapper .paragraphtext p {
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    font-weight: bold;
+}
+
+.middlesection2 .midsection .middletext {
+    margin-top: 100px;
+
+
+}
+
+.middlesection2 .midsection .warmglowwrapper {
+    height: 450px;
+    /* width: 526px; */
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.middlesection2 .midsection .warmglowwrapper img {
+    width: 100%;
+
+}
+
+.middlesection2 .midsection .warmglowwrapper .stampImg {
+    height: 200px;
+    width: 200px;
+    top: 1px;
+    z-index: 1;
+}
+
+.midddleSection .stamp img {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    mix-blend-mode: color-burn;
+    right: 10.5%;
+    top: 340px;
+    rotate: -30deg;
+    z-index: 1;
+}

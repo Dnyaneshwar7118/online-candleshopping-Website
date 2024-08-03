@@ -1,0 +1,122 @@
+@media (max-width: 1024px) {
+
+    .container {
+        padding: 0px 20px;
+
+    }
+
+    .midddleSection .midsectionImg {
+        background-color: #f7e7ea;
+        padding: 20px 30px;
+        gap: 20px;
+    }
+
+    .midddleSection .midsectionImg .midimages img {
+        height: 200px;
+        width: 220px;
+    }
+
+    .midddleSection .midsectionImg .midimages span {
+        font-size: 15px;
+    }
+
+    .midddleSection .textrotate {
+        padding: 0px 16px;
+
+    }
+
+    .midddleSection .textrotate span {
+        margin-top: center;
+        writing-mode: vertical-lr;
+        rotate: 180deg;
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .container {
+        padding: 0px 20px;
+
+    }
+
+    .midddleSection .midsectionImg {
+        background-color: #f7e7ea;
+        padding: 10px 20px;
+        gap: 20px;
+    }
+
+    .midddleSection .midsectionImg .midimages img {
+        height: 200px;
+        width: 220px;
+    }
+
+    .midddleSection .midsectionImg .midimages span {
+        font-size: 15px;
+    }
+
+    .midddleSection .textrotate {
+        padding: 0px 16px;
+
+    }
+
+    .midddleSection .textrotate span {
+        margin-top: 70px;
+        writing-mode: vertical-lr;
+        rotate: 180deg;
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 0px 20px;
+
+    }
+
+    .midddleSection .midsectionImg {
+        background-color: #f7e7ea;
+        padding: 0px 50px;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .midddleSection .midsectionImg .midimages img {
+        height: 350px;
+        width: 400px;
+    }
+
+    .midddleSection .midsectionImg .midimages span {
+        font-size: 15px;
+    }
+
+    .midddleSection .textrotate {
+        padding: 0px 16px;
+
+    }
+
+    .midddleSection .textrotate span {
+        margin-top: 70px;
+        writing-mode: vertical-lr;
+        rotate: 180deg;
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        align-items: center;
+    }
+
+    .midddleSection .stamp img {
+        display: none;
+    }
+}
